@@ -14,6 +14,19 @@ export default function FinancialOverview() {
         </p>
       </section>
 
+      <section className="max-w-4xl mx-auto gap-12 items-center">
+        <div>
+          <p className="text-white/80 leading-relaxed mb-4 text-center content-center">
+            VOHO has completed a preliminary financial forecast in USD on what may be possible based on initial assumptions that may or may not eventuate. Upon completion of the first plant, VOHO will look to revise the preliminary financial forecast based on the outcomes of the initial production. The forecast does not include potential revenues from hard rock gold mining, Pt, Fe, Ti & Zr and rare earths and has not been subject to an independent audit. 
+          </p>
+          <img 
+            className="max-w-md mx-auto"
+            src='/financial_projection.JPG'
+          />
+          
+        </div>
+      </section>
+
       {/* Revenue Targets */}
       <section className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div>
@@ -21,6 +34,10 @@ export default function FinancialOverview() {
           <p className="text-white/80 leading-relaxed mb-4">
             VOHO aims to start production at <strong>1,000 oz/month</strong> of gold, generating an estimated <strong>$3M/month</strong> in revenue.
             With expansion, output is projected to reach <strong>10,000 oz/month</strong> or <strong>$30M/month</strong> using current gold prices.
+          </p>
+          <p className="text-white/80 leading-relaxed mb-4">
+          The Company also plans to add further massive value by undertaking a comprehensive exploration program with the aim of delineating millions of ounces of gold within the project area.
+
           </p>
           <p className="text-white/80">
             The model does not include potential earnings from platinum, titanium, zircon, or rare earths, making this a highly conservative projection.
