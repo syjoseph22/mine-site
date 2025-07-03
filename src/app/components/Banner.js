@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 export default function Banner() {
     return (
         <div className="relative h-[60vh] w-full overflow-hidden">
   {/* Image */}
-  <img
+  <Image
     src="/ecuador.jpg"
     alt="Banner"
     className="absolute inset-0 w-full h-full object-cover"
