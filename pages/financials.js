@@ -45,7 +45,7 @@ export default function FinancialOverview() {
         </div>
         <div className="flex justify-center">
           <img
-            src="/images/gold-bars.jpg"
+            src="/gold_bars_2.jpg"
             alt="Gold bars"
             className="rounded-2xl shadow-lg w-full max-w-md object-cover"
           />
