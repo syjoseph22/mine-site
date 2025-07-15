@@ -23,9 +23,9 @@ export default function WideCard({ title, content, image, link, reverse }) {
         </div>
 
         {/* Text side */}
-        <div className="md:w-1/2 w-full p-6 flex flex-col justify-center text-white">
+        <div className="md:w-1/2 w-full p-6 flex flex-col justify-center text-[#0b1d2a]">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">{title}</h2>
-          <p className="mb-6 text-white/80">{content}</p>
+          <p className="mb-6 text-[#0b1d2a]">{content}</p>
           <Link href={link} className="text-cyan-400 hover:underline font-semibold">
             Learn more →
           </Link>

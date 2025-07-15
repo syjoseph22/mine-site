@@ -26,7 +26,7 @@ export default function InfoSection() {
   ];
 
   return (
-    <section className="bg-[#0b1d2a] py-24 px-4">
+    <section className="py-24 px-4">
       {sections.map((s, i) => (
         <WideCard key={i} {...s} />
       ))}

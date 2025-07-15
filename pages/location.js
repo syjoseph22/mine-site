@@ -6,11 +6,11 @@ import Image from 'next/image';
 export default function LocationPage() {
   return (
     <RootLayout>
-    <div className="bg-[#0b1d2a] text-white min-h-screen px-6 md:px-16 py-20 space-y-16">
+    <div className="text-[#0b1d2a] min-h-screen px-6 md:px-16 py-20 space-y-16">
       {/* Page Title */}
       <section className="text-center max-w-3xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">Location & Project Status</h1>
-        <p className="text-white/80 text-lg leading-relaxed">
+        <p className="text-[#0b1d2a]/80 text-lg leading-relaxed">
           A high-potential mineral concession in Ecuador, backed by a staged production strategy and JORC-compliant reporting.
         </p>
       </section>
@@ -34,7 +34,7 @@ export default function LocationPage() {
         {/* 📍 Optional Image: Processing Plant Diagram or Machine */}
         <div className="w-full flex justify-center my-8">
           {/* Replace with actual image later */}
-          <div className="w-full max-w-xl h-64 bg-white/10 rounded-2xl flex items-center justify-center text-white/50 text-sm italic">
+          <div className="w-full max-w-xl h-64 bg-white/10 rounded-2xl flex items-center justify-center text-[#0b1d2a]/50 text-sm italic">
             Image: Pilot Plant or Equipment Here
           </div>
         </div>
@@ -67,7 +67,7 @@ export default function LocationPage() {
         {/* 📍 Optional Image: Gold Terrace or Riverbed Sample Map */}
         <div className="w-full flex justify-center my-8">
           {/* Replace with actual image later */}
-          <div className="w-full max-w-xl h-64 bg-white/10 rounded-2xl flex items-center justify-center text-white/50 text-sm italic">
+          <div className="w-full max-w-xl h-64 bg-white/10 rounded-2xl flex items-center justify-center text-[#0b1d2a]/50 text-sm italic">
             Image: Sabaleta Terrace Map or Sample Results
           </div>
         </div>
@@ -91,7 +91,7 @@ export default function LocationPage() {
         {/* 📍 Optional Image: Map of North/South Concession Areas */}
         <div className="w-full flex justify-center my-8">
           {/* Replace with actual image later */}
-          <div className="w-full max-w-xl h-64 bg-white/10 rounded-2xl flex items-center justify-center text-white/50 text-sm italic">
+          <div className="w-full max-w-xl h-64 bg-white/10 rounded-2xl flex items-center justify-center text-[#0b1d2a]/50 text-sm italic">
             Image: North & South Concession Map
           </div>
         </div>
