@@ -1,5 +1,6 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import PopupModal from "./components/PopupModal";
 
 export default function RootLayout({ children }) {
   return (
@@ -7,6 +8,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         {children}
+        <PopupModal />
       </body>
     </html>
   );
