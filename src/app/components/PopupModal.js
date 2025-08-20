@@ -42,7 +42,7 @@ export default function PopupModal() {
             type="submit"
             className="bg-[#0b1d2a] text-white rounded px-4 py-2 font-medium hover:bg-[#0b1d2a]/90"
           >
-            Subscribe
+            Subscribe   
           </button>
         </form>
       </div>
