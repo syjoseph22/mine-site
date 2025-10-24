@@ -19,7 +19,7 @@ const experts = [
   },
   {
     name: "Bob Johnson",
-    image: "/profiles/bob-johnson.jpg",
+    image: "/profiles/default.jpg",
     bio: "Bob has a strong background in financial risk management and corporate strategy.",
     slug: "bob-johnson",
   },
