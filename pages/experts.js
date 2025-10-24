@@ -15,7 +15,7 @@ export default function ExpertsPage() {
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {experts.map((expert) => (
-            <ExpertCard
+            <ProfileCard
               key={expert.slug}
               {...expert}
               onSeeMore={() => setSelectedExpert(expert)}
