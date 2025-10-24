@@ -1,7 +1,5 @@
 import Link from "next/link";
 
-import Link from "next/link";
-
 export default function ProfileCard({ name, image, title, slug }) {
   return (
     <div className="bg-white border border-gray-200 rounded-xl shadow-md p-6 flex flex-col items-center text-center">

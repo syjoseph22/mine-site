@@ -1,6 +1,8 @@
 import ProfileCard from "@/app/components/ProfileCard";
 import RootLayout from "@/app/layout";
 import experts from "../public/experts";
+import { useState } from 'react';
+import ExpertModal from '@/app/components/ExpertModal';
 
 export default function ExpertsPage() {
   const [selectedExpert, setSelectedExpert] = useState(null);
