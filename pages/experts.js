@@ -1,3 +1,5 @@
+'use client';
+
 import ProfileCard from "@/app/components/ProfileCard";
 import RootLayout from "@/app/layout";
 import experts from "../public/experts";
