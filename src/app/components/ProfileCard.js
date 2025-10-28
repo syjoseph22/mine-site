@@ -12,9 +12,6 @@ export default function ProfileCard({ name, image, bio, title, onSeeMore }) {
       <h3 className="text-xl font-bold text-[#0b1d2a] mb-1">{name}</h3>
       {title && <p className="text-gray-500 text-sm mb-3">{title}</p>}
 
-      {/* Short Bio */}
-      <p className="text-gray-600 text-sm mb-4 line-clamp-3">{bio}</p>
-
       {/* Button */}
       <button
         onClick={onSeeMore}
