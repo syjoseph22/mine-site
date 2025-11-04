@@ -28,8 +28,8 @@ export default function Navbar() {
           <div className="relative group">
             <div className="cursor-pointer hover:text-[#0b1d2a]/80 transition">Projects ▾</div>
             <div className="absolute left-0 mt-0 hidden group-hover:block bg-white border border-gray-200 rounded-md shadow-md min-w-[220px] z-50">
-              <Link href="/projects/guayzimi" className="block px-4 py-2 hover:bg-gray-50">Guayzimi Alto</Link>
-              <Link href="/projects/sabaleta" className="block px-4 py-2 hover:bg-gray-50">Sabaleta</Link>
+              <Link href="/guayzimi" className="block px-4 py-2 hover:bg-gray-50">Guayzimi Alto</Link>
+              <Link href="/sabaleta" className="block px-4 py-2 hover:bg-gray-50">Sabaleta</Link>
             </div>
           </div>
 
