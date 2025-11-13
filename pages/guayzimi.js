@@ -8,7 +8,7 @@ export default function GuayzimiPage() {
   return (
     <RootLayout>
     <main className="bg-white">
-      <ProjectHeader image="/projects/guayzimi.jpg" title="Guayzimi Alto Project" />
+      <ProjectHeader image="/guayzimi/bannerImg.png" title="Guayzimi Alto Project" />
 
       <ProjectInfoBar
         metal="Gold"
@@ -17,7 +17,7 @@ export default function GuayzimiPage() {
       />
 
       <ProjectMapSection
-        image="/maps/guayzimi-map.jpg"
+        image="/guayzimi/landscapeCopy.png"
         description="The Guayzimi Alto project is located in the mineral-rich Zamora-Chinchipe province, an area known for its extensive gold-bearing formations and strong infrastructure access."
       />
 

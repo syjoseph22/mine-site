@@ -19,7 +19,7 @@ export default function ExpertsSection() {
         </div>
 
         <Link
-          href="/experts"
+          href="/management"
           className="inline-block px-6 py-3 bg-[#0b1d2a] text-white rounded-md font-medium hover:bg-[#0b1d2a]/90 transition"
         >
           View All Experts
