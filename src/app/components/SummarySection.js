@@ -1,3 +1,5 @@
+'use client';
+
 import AnimatedCard from "./AnimatedCard";
 
 export default function SummarySection() {

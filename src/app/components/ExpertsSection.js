@@ -1,3 +1,5 @@
+'use client';
+
 import ProfileCard from "./ProfileCard";
 import Link from "next/link";
 import experts from "../../../public/experts";

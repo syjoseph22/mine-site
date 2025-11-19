@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { submitEmailToGoogleSheets } from '@/utils/submitEmail';
 
 export default function PopupModal() {
   const [visible, setVisible] = useState(false);
@@ -22,17 +23,16 @@ export default function PopupModal() {
 
   // Submit to Google Sheets
   const handleSubmit = async (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    await fetch("https://script.google.com/macros/s/AKfycbxSmeSr-VGMeEP-s1YNBeJX0PfFz3GXnODTMGbc31Z9n8y8hKsUOqZ7nSp3ed6litwT/exec", {
-      method: "POST",
-      body: JSON.stringify({
-        email,
-        sourcePage: window.location.pathname // Optional but useful
-      }),
-    });
+  const result = await submitEmailToGoogleSheets(
+    email,
+    window.location.pathname
+  );
 
+  if (result.success) {
     setSubmitted(true);
+  }
 
     // optional: Auto close after 2.5s
     setTimeout(() => setVisible(false), 2500);

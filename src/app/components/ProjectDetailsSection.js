@@ -1,3 +1,6 @@
+'use client';
+
+
 export default function ProjectDetailsSection({ title, children }) {
   return (
     <section className="bg-white py-12 px-6 md:px-16 text-[#0b1d2a]">

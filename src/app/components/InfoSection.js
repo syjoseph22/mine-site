@@ -1,3 +1,5 @@
+'use client';
+
 import WideCard from "./WideCard";
 
 export default function InfoSection() {

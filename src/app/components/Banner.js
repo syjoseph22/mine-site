@@ -1,3 +1,5 @@
+'use client';
+
 export default function Banner() {
   return (
     <div className="relative h-[60vh] w-full overflow-hidden">

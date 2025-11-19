@@ -1,3 +1,6 @@
+
+'use client';
+
 export default function ProjectHeader({ image, title }) {
   return (
     <div className="relative h-[60vh] w-full overflow-hidden">

@@ -1,3 +1,6 @@
+'use client';
+
+
 export default function ProfileCard({ name, image, bio, title, onSeeMore }) {
   return (
     <div className="bg-white border border-gray-200 rounded-xl shadow-md p-6 flex flex-col items-center text-center">

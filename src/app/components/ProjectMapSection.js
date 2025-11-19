@@ -1,3 +1,5 @@
+'use client';
+
 export default function ProjectMapSection({ image, description }) {
   return (
     <>
