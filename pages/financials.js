@@ -51,14 +51,7 @@ export default function FinancialOverview() {
       </section>
 
       {/* Cost Efficiency */}
-      <section className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        <div className="flex justify-center md:order-2">
-          <img
-            src="/images/mine-costs.jpg"
-            alt="Mining Costs"
-            className="rounded-2xl shadow-lg w-full max-w-md object-cover"
-          />
-        </div>
+      <section className="max-w-5xl mx-auto items-center">
         <div>
           <h2 className="text-2xl font-semibold mb-4">Low Operating Costs</h2>
           <p className="text-[#0b1d2a] leading-relaxed mb-4">
@@ -71,7 +64,7 @@ export default function FinancialOverview() {
       </section>
 
       {/* Future Upside */}
-      <section className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <section className="max-w-5xl mx-auto  items-center">
         <div>
           <h2 className="text-2xl font-semibold mb-4">Upside Potential</h2>
           <p className="text-[#0b1d2a] leading-relaxed mb-4">
@@ -80,13 +73,6 @@ export default function FinancialOverview() {
           <p className="text-[#0b1d2a]">
             Additional revenue streams from Platinum, Titanium, Zircon, and Rare Earths are being evaluated via the initial pilot production process.
           </p>
-        </div>
-        <div className="flex justify-center">
-          <img
-            src="/images/gold-potential.jpg"
-            alt="Gold Potential"
-            className="rounded-2xl shadow-lg w-full max-w-md object-cover"
-          />
         </div>
       </section>
     </div>

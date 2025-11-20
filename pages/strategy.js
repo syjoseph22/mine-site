@@ -16,7 +16,7 @@ export default function StrategyPage() {
       </section>
 
       {/* Section 1: Phased Rollout */}
-      <section className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <section className="max-w-2xl mx-auto items-center">
         <div>
           <h2 className="text-2xl font-semibold mb-4">Phased Rollout Plan</h2>
           <p className="text-[#0b1d2a] leading-relaxed mb-4">
@@ -27,24 +27,10 @@ export default function StrategyPage() {
             In Phase Two, we rapidly scale using additional Pilot Plants followed by a large-scale processing facility.
           </p>
         </div>
-        <div className="flex justify-center">
-          <img
-            src="/images/rollout.jpg"
-            alt="Phased Rollout"
-            className="rounded-2xl shadow-lg w-full max-w-md object-cover"
-          />
-        </div>
       </section>
 
       {/* Section 2: Modular Design */}
-      <section className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        <div className="flex justify-center md:order-2">
-          <img
-            src="/images/modular.jpg"
-            alt="Modular Plant Design"
-            className="rounded-2xl shadow-lg w-full max-w-md object-cover"
-          />
-        </div>
+      <section className="max-w-2xl mx-auto items-center">
         <div>
           <h2 className="text-2xl font-semibold mb-4">Modular Plant Design</h2>
           <p className="text-[#0b1d2a] leading-relaxed mb-4">
@@ -57,7 +43,7 @@ export default function StrategyPage() {
       </section>
 
       {/* Section 3: Self-Funding Model */}
-      <section className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <section className="max-w-2xl mx-auto items-center">
         <div>
           <h2 className="text-2xl font-semibold mb-4">Self-Funding Growth Model</h2>
           <p className="text-[#0b1d2a] leading-relaxed mb-4">
@@ -67,13 +53,6 @@ export default function StrategyPage() {
           <p className="text-[#0b1d2a]">
             This capital-efficient model ensures early profitability and long-term sustainability.
           </p>
-        </div>
-        <div className="flex justify-center">
-          <img
-            src="/images/self-funding.jpg"
-            alt="Self-Funding Model"
-            className="rounded-2xl shadow-lg w-full max-w-md object-cover"
-          />
         </div>
       </section>
     </div>

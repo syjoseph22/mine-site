@@ -9,6 +9,7 @@ export default function LocationPage() {
     <div className="text-[#0b1d2a] min-h-screen px-6 md:px-16 py-20 space-y-16">
       {/* Page Title */}
       <section className="text-center max-w-3xl mx-auto">
+        <h1 className="text-4xl md:text-5xl font-bold mb-6">Sabaleta</h1>
         <h1 className="text-4xl md:text-5xl font-bold mb-6">Location & Project Status</h1>
         <p className="text-[#0b1d2a]/80 text-lg leading-relaxed">
           A high-potential mineral concession in Ecuador, backed by a staged production strategy and JORC-compliant reporting.
@@ -30,14 +31,6 @@ export default function LocationPage() {
           Our second stage shall involve the construction of a <strong>large-scale processing plant</strong> to increase production.
           VOHO’s strategy will allow it to be substantially self-funding and not dependent on shareholders for additional funding.
         </p>
-
-        {/* 📍 Optional Image: Processing Plant Diagram or Machine */}
-        <div className="w-full flex justify-center my-8">
-          {/* Replace with actual image later */}
-          <div className="w-full max-w-xl h-64 bg-white/10 rounded-2xl flex items-center justify-center text-[#0b1d2a]/50 text-sm italic">
-            Image: Pilot Plant or Equipment Here
-          </div>
-        </div>
       </section>
 
       {/* Resource Potential Section */}
@@ -68,7 +61,11 @@ export default function LocationPage() {
         <div className="w-full flex justify-center my-8">
           {/* Replace with actual image later */}
           <div className="w-full max-w-xl h-64 bg-white/10 rounded-2xl flex items-center justify-center text-[#0b1d2a]/50 text-sm italic">
-            Image: Sabaleta Terrace Map or Sample Results
+            <img
+          src="/sabaleta/gold.png"
+          alt="Banner"
+          className=""
+      />
           </div>
         </div>
       </section>
@@ -88,13 +85,6 @@ export default function LocationPage() {
           There is a reasonable expectation that ounces in the inferred category may be elevated to Measured or Indicated status through further pitting.
         </p>
 
-        {/* 📍 Optional Image: Map of North/South Concession Areas */}
-        <div className="w-full flex justify-center my-8">
-          {/* Replace with actual image later */}
-          <div className="w-full max-w-xl h-64 bg-white/10 rounded-2xl flex items-center justify-center text-[#0b1d2a]/50 text-sm italic">
-            Image: North & South Concession Map
-          </div>
-        </div>
       </section>
     </div>
     </RootLayout>
