@@ -51,13 +51,14 @@ export default function Navbar() {
               </Link>
             </div>
           </div>
-
+          {/*
           <Link href="/contact" className="hover:text-[#0b1d2a]/80 transition">
             Contact
           </Link>
           <Link href="/news" className="hover:text-[#0b1d2a]/80 transition">
             News
           </Link>
+          */}
         </div>
 
         {/* Mobile Burger Icon */}
